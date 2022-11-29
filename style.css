@@ -25,5 +25,12 @@ h2{
 .class-wrapper{
     margin-left:2vw;
     margin-right:2vw;
+    width:100%
 
+}
+div.image-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
