@@ -33,12 +33,14 @@ h2 {
 h3 {
   font-family: "Palatino", serif;
   font-size: 1.5vw;
+  font-weight: bold;
 
 }
 
 h4 {
   font-family: "Palatino", serif;
   font-size: 1vw;
+  font-weight: bold;
 
 }
 
@@ -64,18 +66,16 @@ div.image-wrapper {
   
 
 }
+.text{
+  border: 1px solid #000000;
+  border-radius: 0.5vw;
+
+}
 
 .user-container {
   display: flex;
   justify-items: space-between;
   background-color: lavender;
-
-
-  /* font-size: 21px;
-  color: black;
-  margin: 1% 4% 4% 4%;
-  background-color: rgba(255, 255, 255, 0.5); */
-
 }
 
 .user-item {
@@ -98,6 +98,7 @@ div.image-wrapper {
 
 .storyboard {
   width: 60%;
+  height: 60%;
 
 
 }
