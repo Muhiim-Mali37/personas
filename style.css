@@ -1,5 +1,7 @@
+
+
 .navbar {
-  background-color: #FAFAFA;
+  /* background-color: #FAFAFA; */
   margin-bottom: 0px;
 }
 
@@ -18,23 +20,32 @@
 
 h1 {
   font-family: "Palatino", serif;
-  color: #64A6E1;
+  color: black;
   text-align: center;
+  font-weight: bold;
   margin-top: 1rem;
   font-size: 3vw;
+  font-family: "Palatino", serif;
 }
 
 h2 {
   font-family: "Palatino", serif;
-  color: #64A6E1;
+  color: #BC0052;
+  font-weight:bold; 
   font-size: 2vw;
+  font-family: "Palatino", serif;
 }
 
 h3 {
   font-family: "Palatino", serif;
   font-size: 1.5vw;
   font-weight: bold;
+  font-family: "Palatino", serif;
+  color: #FD91B5;
 
+}
+body{
+  background-color:#f5f3f4;
 }
 
 h4 {
@@ -47,8 +58,6 @@ h4 {
 .class-wrapper {
   margin-left: 2vw;
   margin-right: 2vw;
-  width: 100%
-    /* background-color: m */
 
 }
 
@@ -57,12 +66,19 @@ div.image-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+}
+div.image-wrapper > img{
+  /* box-shadow: 0px 4px 4px 0px #BC0052;
+  padding: 1px 1% 1% 1%; */
+  margin-bottom: 1vw;
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
+
   
 
 }
@@ -75,16 +91,17 @@ div.image-wrapper {
 .user-container {
   display: flex;
   justify-items: space-between;
-  background-color: lavender;
+  /* background-color: #E33550; */
+  margin: 1% 4% 4% 4%;
 }
 
 .user-item {
   border: 1px solid #000000;
   font-family: "Palatino", serif;
   border-radius: 0.5vw;
-  box-shadow: 0px 4px 4px 0px hsl(0deg 0% 0% / 25%);
+  box-shadow: 0px 4px 4px 0px #BC0052;
   padding: 1px 1% 1% 1%;
-  background-color: rgba(255, 255, 255, 0.5);
+  /* background-color: #ff87ab; */
 }
 
 .q-and-a-container {
@@ -92,7 +109,8 @@ div.image-wrapper {
   font-size: 21px;
   color: black;
   margin: 1% 4% 4% 4%;
-  background-color: lavender;
+  box-shadow: 0px 4px 4px 0px #BC0052;
+  /* background-color: #ff87ab; */
   padding: 1px 1% 1% 1%;
 }
 
@@ -101,4 +119,54 @@ div.image-wrapper {
   height: 60%;
 
 
+}
+.col-lg-4{
+  margin: auto !important;
+}
+.outlined{
+  width: 50%;
+}
+.parallax {
+  min-height: 550px;
+  background: transparent;
+  padding: 20px;
+  background-color: #D45E66;
+  margin-bottom: 1vw;;
+}
+
+.projectParallax {
+  min-height: 450px;
+  background: transparent;
+  padding: 20px;
+}
+
+.paratext {
+  padding-bottom: 5%;
+}
+
+.para1 {
+  z-index: 2;
+  position: relative;
+  text-align: center;
+}
+body{
+  background-color: white;
+}
+
+.para2 {
+  z-index: 2;
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 1.45em;
+  margin-top: 1vh;
+}
+.outline {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  background: transparent;
 }

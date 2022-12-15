@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="https://hungrycat416.github.io/portfolio/">
             My Portfolio
         </a>
@@ -47,9 +47,46 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
     <div class="class-wrapper">
-        <h1>Personas & Storyboarding</h1>
+        <div class="parallax" data-parallax="scroll" data-z-index="1" src="social_media_background.jpeg">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    My portfolio
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#part-1--preparation">Preparation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#part2--observations">Recording Observations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#part3--personas">Personas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#part4--storyboards">Storyboards</a>
+                            </li>
+                        </ul>
+
+                </div>
+            </nav>
+            <div class="paratext">
+                <img class="outline" src="persona_welcome.png">
+                <h1 data-aos="fade-down" class="para1">Personas & Storyboarding</h1>
+                <!-- <h3 data-aos="fade-down" class="para2">a UI/UX student at Brown -->
+                </h3>
+            </div>
+            <div id="work"></div>
+        </div>
+        <!-- <h1>Personas & Storyboarding</h1> -->
         <h2><span>Overview</span></h2>
         <hr>
         <p>
@@ -61,7 +98,7 @@
         </p>
         <h2 id="part-1--preparation"><span>Part 1: Preparation</span></h2>
         <hr>
-        <h3>Description about the interface</h3>
+        <h3>Description About The Interface</h3>
         <div class="image-wrapper">
             <img class="outlined" src="washing_machine.png" alt="a sketch of the interface" />
 
@@ -74,9 +111,9 @@
             <li>The door, which is where the clothes are placed</li>
             <li>Control panel settings, which is used to set the settings for the wash.</li>
         </ul>
-        <h3>Here is sketch of the control panel: </h3>
+        <h3>Here Is Sketch Of The Control Panel: </h3>
         <div class="image-wrapper">
-            <img class="outlined" src="interface_sketch.png" alt="a sketch of the control panel settings" />
+            <img class="outlined" src="sketch_design.png" alt="a sketch of the control panel settings" />
 
         </div>
 
@@ -86,41 +123,61 @@
             Observation Summary:
         </h3>
         <div class="user-container">
-            <div class=user-item>
-                <h4>user1:</h4>
-                <ul>
-                    <li>First, checked the drum of the washing for leftover articles of clothing</li>
-                    <li>Put the clothes in first, threw a couple of pod detergent into the drum.
-                    </li>
-                    <li>And went to the laundry kiosk to set the settings for their load. </li>
-                    <li>Came back to the washing machine to press start.</li>
-                </ul>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class=user-item>
+                        <h4>user1</h4>
+                        <ul>
+                            <li>First, checked the drum of the washing for leftover articles of clothing</li>
+                            <li>Put the clothes in first </li>
+                            <li>threw a couple of pod detergent into the drum.</li>
+                            <li>And went to the laundry kiosk to set the settings for their load. </li>
+                            <li>Came back to the washing machine.</li>
+                            <li>chose the options for their cycle</li>
+                            <li>and finally pressed start</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="user-item">
+                        <h4>user2</h4>
+                        <ul>
+                            <li> Opened the door,and put their blanket and all their sweaters inside</li>
+                            <li>Opened another washing machine and put the rest of their clothes inside</li>
+                            <li>Went to the laundry kiosk to pay and adjust the settings for the wash</li>
+                            <li>Came back to the washing machine, opened the detergent drawer and put detergent in the
+                                detergent
+                                compartment.</li>
+                            <li>Then pressed start.</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="user-item">
+                        <h4>user3</h4>
+                        <ul>
+                            <li>put her laundry on the floor because it is very heavy</li>
+                            <li>threw her laundry into the washer that has the least odor</li>
+                            <li>she made sure that all her clothes are inside the drum before closing the door </li>
+                            <li>went to the laundry kiosk, selected the machine she is using and then swiped her card
+                            </li>
+                            <li>she went back and made sure she has the right settings</li>
+                            <li>finally, she pressed start</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+
 
             </div>
-            <div class="user-item">
-                <h4>user2</h4>
-                <ul>
-                    <li> Opened the door,and put their blanket and all their sweaters inside</li>
-                    <li>Opened another washing machine and put the rest of their clothes inside</li>
-                    <li>Went to the laundry kiosk to pay and adjust the settings for the wash</li>
-                    <li>Came back to the washing machine, opened the detergent drawer and put detergent in the detergent
-                        compartment.</li>
-                    <li>Then pressed start.</li>
-                </ul>
 
-            </div>
-            <div class="user-item">
-                <h4>user3</h4>
-                <ul>
-                    <li>put her laundry on the floor because it is very heavy</li>
-                    <li>threw her laundry into the washer that has the least odor</li>
-                    <li>she made sure that all her clothes are inside the drum before closing the door </li>
-                    <li>went to the laundry kiosk, selected the machine she is using and then swiped her card</li>
-                    <li>she went back and made sure she has the right settings</li>
-                    <li>finally, she pressed start</li>
-                </ul>
-
-            </div>
         </div>
         <br>
         <div class="q-and-a-container">
