@@ -79,23 +79,26 @@ div.image-wrapper>img {
 
 .container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between ;
+}
 
-
+.col-lg-4 {
+  margin: auto !important;
 
 }
 
-.text {
+.col-lg-4 > p {
   border: 1px solid #000000;
   border-radius: 0.5vw;
+  padding: 2px 2% 2% 2%;
+  
 
 }
 
 .user-container {
   display: flex;
   justify-items: space-between;
-  /* background-color: #E33550; */
   margin: 1% 4% 4% 4%;
 }
 
@@ -175,10 +178,12 @@ body {
 
 p {
   font-family: 'Baskervville', serif;
+  font-size: 1.5vw;
   margin-left: 40px;
   margin-right: 70px;
 }
-#bullet{
+
+#bullet {
   font-family: 'Baskervville', serif;
   color: #6A6A6C;
   margin-left: 40px;
