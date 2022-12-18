@@ -52,6 +52,9 @@ h4 {
   font-weight: bold;
 
 }
+.image > img{
+  width: 100%;
+}
 
 div.image-wrapper {
   width: 100%;
